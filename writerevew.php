@@ -23,15 +23,54 @@
 
 					</div>
           <br>
-					<div class="input">
+          
+					<!-- <div class="input">
 						<label for="r_name">Restaurant Name</label>
 						<input type="text" placeholder="Restaurant Name" name="r_name" required />
 						<span class="fa fa-unlock"></span>
 					</div>
-          <br>
+          <br> -->
 
 
-          <div class="rate">
+          <table>
+            <tr>
+              <div class="input">
+                <td> <label for="r_rating">Restaurant Name</label>  </td>
+                <td><input type="text" placeholder="Restaurant Name" name="r_name" required /></td>
+                <td><span class="fa fa-unlock"></span></td>
+              </div>
+            </tr>
+
+            <tr>
+              <div class="input">
+                <td> <label for="r_rating">Rating</label>  </td>
+                <td><input type="number" placeholder="Rating " name="r_rating" required /></td>
+                <td><span class="fa fa-unlock"></span></td>
+              </div>
+            </tr>
+
+            <tr>
+              <div class="input">
+                <td> <label for="r_rating">Ambience</label>  </td>
+                <td><input type="number" placeholder="Ambience Rating" name="r_ambience" required /></td>
+                <td><span class="fa fa-unlock"></span></td>
+              </div>
+            </tr>
+
+            <tr>
+              <div class="input">
+                <td> <label for="r_rating">Service</label>  </td>
+                <td><input type="number" placeholder="Service Rating" name="r_service" required /></td>
+                <td><span class="fa fa-unlock"></span></td>
+              </div>
+            </tr>
+
+
+
+          </table>
+        
+          
+          <!-- <div class="rate">
             <h4>Rating</h4>
             <input type="radio" id="star5" name="rate" value="5" />
             <label for="star5" title="text">5 stars</label>
@@ -43,8 +82,9 @@
             <label for="star2" title="text">2 stars</label>
             <input type="radio" id="star1" name="rate" value="1" />
             <label for="star1" title="text">1 star</label>
-          </div>
-          <br>
+          </div> -->
+
+          <!-- <br>
           <br>
 
           <br>
@@ -64,10 +104,10 @@
             <label for="star1" title="text">1 star</label>
           </div>
           <br>
-          <br>
+          <br> -->
 
 
-          <br>
+          <!-- <br>
           <br>
           <br>
           <div class="rate">
@@ -87,6 +127,7 @@
           <br>
           <br>
           <br>
+
           <div class="rate">
             <h4>Service</h4>
             <input type="radio" id="star5" name="rate" value="5" />
@@ -105,7 +146,8 @@
           <br>
           <br>
           <br>
-          <br>
+          <br> -->
+
           <input type="submit" name="submit" class=" btn btn-primary" value="SUBMIT" style="font-size:15pt;color:white;background-color:maroon;border:4px solid #900C3F;padding:5px">
           <br>
           <br>
@@ -116,11 +158,8 @@
 				</form>
 
 			</div>
-		</div>
-		<!-- //content -->
-		<!-- copyright -->
-
-		<!-- //copyright -->
+    </div>
+    
 	</div>
 
 
