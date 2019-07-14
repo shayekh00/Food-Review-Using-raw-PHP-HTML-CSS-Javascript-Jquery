@@ -1,4 +1,9 @@
-<?php include "inc/header.php"; ?>
+<?php include "inc/header.php"; 
+
+session_start();
+echo "Welcome" . $_SESSION['email'];
+
+?>
 
 
 <div class="main_bodybg">
