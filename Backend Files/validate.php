@@ -10,14 +10,17 @@
         $pass = $_POST['password'];
         
         if($email == $my_email &&  $pass == $mypassword){
-            
+
             if(isset($_POST['rememberme'])){
-                setcookie('email',$email, time()+60*60*7);
-                setcookie('password',$email, time()+60*60*7);
+                setcookie("email",$email, time()+(60*60*7));
+                setcookie("password",$email, time()+(60*60*7));
+            
             }
+
+
             session_start();
             $_SESSION['email']= $email;
-
+            
             header("location: ../home.php");
         }
         else{
