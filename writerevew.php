@@ -11,7 +11,7 @@
 				<div class="top-content-style">
 
 				</div>
-				<form action=" Backend Files/insert_write_a_review.php " method="post">
+				<form action=" Backend Files/insert_write_a_review.php " name="review_form" method="post" onsubmit="form_validation()">
 					<p class="legend" ></p>
           <h1>Write a review</h1>
           <br>
@@ -86,10 +86,10 @@
 
           <!-- <br>
           <br>
-
           <br>
 
           <br>
+          
           <div class="rate">
             <h4>Taste</h4>
             <input type="radio" id="star5" name="rate" value="5" />
