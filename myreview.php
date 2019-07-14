@@ -10,8 +10,10 @@
 			<div class="bg-content-w3pvt">
 				<div class="top-content-style">
 
-				</div>
+        </div>
+        
 				<form action="#" method="post">
+
 					<p class="legend" ></p>
           <h1>My Reviews</h1>
           <br>

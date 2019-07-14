@@ -11,14 +11,14 @@
 				<div class="top-content-style">
 
 				</div>
-				<form action="#" method="post">
+				<form action=" Backend Files/insert_write_a_review.php " method="post">
 					<p class="legend" ></p>
           <h1>Write a review</h1>
           <br>
           <br>
 
 					<div class="input">
-						<textarea name="paragraph_text" cols="50" rows="10"placeholder="Write a review of the restaurant" hint = "Write a review of the restaurant"></textarea>
+						<textarea name="review_text" cols="50" rows="10"placeholder="Write a review of the restaurant" hint = "Write a review of the restaurant"></textarea>
 
 
 					</div>
