@@ -82,17 +82,17 @@ $result=mysqli_query($con,"select * from food_review");
                   </tr>
 
                   <tr>
-                    <td>Ambiance:</td>
+                    <td>Review:</td> 
                     <td><?php  printf ("%s\n", $row["review"]);?></td>
                   </tr>
 
                   <tr>
-                    <td>Rating:</td>
+                    <td>Ambiance:</td>
                     <td><?php  printf ("%s\n", $row["ambiance"]);?></td>
                   </tr> 
 
                   <tr>
-                    <td>Rating:</td>
+                    <td>Service:</td>
                     <td><?php  printf ("%s\n", $row["service"]);?></td>
                   </tr>
 

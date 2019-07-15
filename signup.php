@@ -1,4 +1,7 @@
-<?php include "inc/header.php"; ?>
+<?php
+include "inc/header.php";
+require_once "Backend Files/connection.php";
+ ?>
 
 
 <div class="main_bodybg">
@@ -11,31 +14,31 @@
 				<div class="top-content-style">
 
 				</div>
-				<form action="#" method="post">
+				<form action="Backend Files/loginn_insert.php" method="POST">
 					<p class="legend"></p>
           <h1>Sign Up Here</h1>
           <br>
 					<div class="input">
 						<label for="name">Name</label><br>
-						<input type="text" placeholder="Name" name="name" required />
+						<input type="text" placeholder="Name" name="user_name" required />
 						<span class="fa fa-user"></span>
 					</div>
           <br>
 					<div class="input">
 						<label for="email">Email</label><br>
-						<input type="email" placeholder="Email" name="email" required />
+						<input type="email" placeholder="Email" name="user_email" required />
 						<span class="fa fa-envelope"></span>
 					</div>
           <br>
 					<div class="input">
 						<label for="password">Password</label><br>
-						<input type="password" placeholder="Password" name="password" required />
+						<input type="password" placeholder="Password" name="user_password" required />
 						<span class="fa fa-unlock"></span>
 					</div>
           <br>
 					<div class="input">
 						<label for="retype">Re-type</label><br>
-						<input type="password" placeholder="Re-type" name="retype" required />
+						<input type="password" placeholder="Re-type" name="user_retype" required />
 						<span class="fa fa-unlock"></span>
 					</div>
 

@@ -3,6 +3,8 @@
 session_start();
 echo "Welcome " . $_SESSION['email'];
 
+$emmail_cookie = $_COOKIE['email'];
+
 
 ?>
 
