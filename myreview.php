@@ -62,8 +62,11 @@ $result=mysqli_query($con,"select * from food_review");
           <?php
 
             //$row = mysqli_fetch_assoc($result);
-
-            $query = "SELECT * from food_review";
+            session_start();
+            $session_email= $_SESSION['email'];
+            $query = "SELECT * from food_review WHERE email='$session_email'  ";
+            
+            
 
             if ($result = mysqli_query($con, $query)) {
 

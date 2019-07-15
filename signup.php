@@ -14,7 +14,7 @@ require_once "Backend Files/connection.php";
 				<div class="top-content-style">
 
 				</div>
-				<form action="Backend Files/loginn_insert.php" method="POST">
+				<form action="Backend Files/signup_backend.php" method="POST">
 					<p class="legend"></p>
           <h1>Sign Up Here</h1>
           <br>
@@ -63,10 +63,7 @@ require_once "Backend Files/connection.php";
 
 			</div>
 		</div>
-		<!-- //content -->
-		<!-- copyright -->
-
-		<!-- //copyright -->
+		
 	</div>
 
 

@@ -1,6 +1,8 @@
 <?php include "inc/header.php";
 session_start();
-echo "Welcome " . $_SESSION['email'];
+ echo "Welcome " . $_SESSION['email'];
+
+//echo "Welcome " . $_SESSION['username'];
 ?>
 
 <?php

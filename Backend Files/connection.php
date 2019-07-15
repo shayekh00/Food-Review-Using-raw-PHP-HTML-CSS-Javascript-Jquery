@@ -3,7 +3,6 @@
 $servername = "localhost"; 
 $username = "root"; 
 $password = ""; 
-
 $database_name= "food_review";
  
 // Create connection 
