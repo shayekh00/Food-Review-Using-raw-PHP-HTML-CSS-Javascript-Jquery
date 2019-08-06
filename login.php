@@ -59,12 +59,12 @@
 					</div>
 
 					<?php
-					session_start();
+				//	session_start();
 					require_once __DIR__ . '/src/Facebook/autoload.php'; // download official fb sdk for php @ https://github.com/facebook/php-graph-sdk
 
 					$fb = new Facebook\Facebook([
-					  'app_id' => '722334264890503',
-					  'app_secret' => '937042f7b20d4d2453c2dc6644858a00',
+					  'app_id' => '365418891019798',
+					  'app_secret' => '51ef00cb8b345d5731280906c527eb92',
 					  'default_graph_version' => 'v3.1',
 					  ]);
 
