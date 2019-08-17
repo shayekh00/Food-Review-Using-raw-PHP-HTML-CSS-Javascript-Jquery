@@ -11,7 +11,10 @@
 
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 3b67f75435b5c872b7312f79ea65e1fc7ae3c415
 .page-footer{
 
   background: #780225;
@@ -21,7 +24,10 @@
 }
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 3b67f75435b5c872b7312f79ea65e1fc7ae3c415
 .sub-main-w3 form {
     background: #F3D7A6;
     padding: 2em;
@@ -53,5 +59,43 @@ form {
 }
 
 
+<<<<<<< HEAD
+=======
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+>>>>>>> 3b67f75435b5c872b7312f79ea65e1fc7ae3c415
 
 /* Modified from: https://github.com/mukulkant/Star-rating-using-pure-css */

@@ -20,7 +20,11 @@ $result=mysqli_query($con,"select * from food_review");
 				<div class="top-content-style">
 
         </div>
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> 3b67f75435b5c872b7312f79ea65e1fc7ae3c415
 
         <table>
           <!-- <tr>
@@ -54,19 +58,34 @@ $result=mysqli_query($con,"select * from food_review");
           <br>
           <br>
 
+<<<<<<< HEAD
 
           <table>
 
 
+=======
+          
+          <table>
+
+          
+>>>>>>> 3b67f75435b5c872b7312f79ea65e1fc7ae3c415
 
           <?php
 
             //$row = mysqli_fetch_assoc($result);
+<<<<<<< HEAD
 
             $session_email= $_SESSION['user_email'];
             $query = "SELECT * from food_review WHERE email='$session_email'  ";
 
 
+=======
+            session_start();
+            $session_email= $_SESSION['email'];
+            $query = "SELECT * from food_review WHERE email='$session_email'  ";
+            
+            
+>>>>>>> 3b67f75435b5c872b7312f79ea65e1fc7ae3c415
 
             if ($result = mysqli_query($con, $query)) {
 
@@ -85,14 +104,22 @@ $result=mysqli_query($con,"select * from food_review");
                   </tr>
 
                   <tr>
+<<<<<<< HEAD
                     <td>Review:</td>
+=======
+                    <td>Review:</td> 
+>>>>>>> 3b67f75435b5c872b7312f79ea65e1fc7ae3c415
                     <td><?php  printf ("%s\n", $row["review"]);?></td>
                   </tr>
 
                   <tr>
                     <td>Ambiance:</td>
                     <td><?php  printf ("%s\n", $row["ambiance"]);?></td>
+<<<<<<< HEAD
                   </tr>
+=======
+                  </tr> 
+>>>>>>> 3b67f75435b5c872b7312f79ea65e1fc7ae3c415
 
                   <tr>
                     <td>Service:</td>
@@ -105,17 +132,29 @@ $result=mysqli_query($con,"select * from food_review");
 
                 </table>
 
+<<<<<<< HEAD
 
                 <?php
 
               }
 
+=======
+                
+                <?php
+                  
+              }
+              
+>>>>>>> 3b67f75435b5c872b7312f79ea65e1fc7ae3c415
               /* free result set */
               mysqli_free_result($result);
           }
 
 
+<<<<<<< HEAD
 
+=======
+            
+>>>>>>> 3b67f75435b5c872b7312f79ea65e1fc7ae3c415
 
           ?>
 

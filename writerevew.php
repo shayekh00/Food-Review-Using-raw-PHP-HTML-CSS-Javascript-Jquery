@@ -23,7 +23,11 @@
 
 					</div>
           <br>
+<<<<<<< HEAD
 
+=======
+          
+>>>>>>> 3b67f75435b5c872b7312f79ea65e1fc7ae3c415
 					<!-- <div class="input">
 						<label for="r_name">Restaurant Name</label>
 						<input type="text" placeholder="Restaurant Name" name="r_name" required />
@@ -48,6 +52,7 @@
                 <td><span class="fa fa-unlock"></span></td>
               </div>
             </tr>
+<<<<<<< HEAD
 						<tr>
 							<div class="input">
 								<td> <label for="r_rating">Taste</label>  </td>
@@ -55,6 +60,8 @@
 								<td><span class="fa fa-unlock"></span></td>
 							</div>
 						</tr>
+=======
+>>>>>>> 3b67f75435b5c872b7312f79ea65e1fc7ae3c415
 
             <tr>
               <div class="input">
@@ -75,8 +82,13 @@
 
 
           </table>
+<<<<<<< HEAD
 
 
+=======
+        
+          
+>>>>>>> 3b67f75435b5c872b7312f79ea65e1fc7ae3c415
           <!-- <div class="rate">
             <h4>Rating</h4>
             <input type="radio" id="star5" name="rate" value="5" />
@@ -96,7 +108,11 @@
           <br>
 
           <br>
+<<<<<<< HEAD
 
+=======
+          
+>>>>>>> 3b67f75435b5c872b7312f79ea65e1fc7ae3c415
           <div class="rate">
             <h4>Taste</h4>
             <input type="radio" id="star5" name="rate" value="5" />
@@ -166,7 +182,11 @@
 
 			</div>
     </div>
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> 3b67f75435b5c872b7312f79ea65e1fc7ae3c415
 	</div>
 
 

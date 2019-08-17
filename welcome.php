@@ -1,5 +1,10 @@
 <?php include "inc/header.php";
+<<<<<<< HEAD
 
+=======
+session_start();
+ echo "Welcome " . $_SESSION['email'];
+>>>>>>> 3b67f75435b5c872b7312f79ea65e1fc7ae3c415
 
 //echo "Welcome " . $_SESSION['username'];
 ?>

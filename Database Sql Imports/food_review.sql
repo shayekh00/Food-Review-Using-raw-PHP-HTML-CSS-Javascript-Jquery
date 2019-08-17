@@ -3,9 +3,15 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
+<<<<<<< HEAD
 -- Generation Time: Aug 10, 2019 at 11:59 PM
 -- Server version: 10.3.16-MariaDB
 -- PHP Version: 7.3.6
+=======
+-- Generation Time: Jul 15, 2019 at 04:13 PM
+-- Server version: 10.3.16-MariaDB
+-- PHP Version: 7.3.7
+>>>>>>> 3b67f75435b5c872b7312f79ea65e1fc7ae3c415
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -49,6 +55,7 @@ INSERT INTO `food_review` (`id`, `restaurant_name`, `review`, `rating`, `taste`,
 (9, 'Res1', 'fas', 11, 0, 12, 21),
 (10, 'Res2', 'asdsa', 1, 0, 2, 15),
 (11, 'Takeout 2.0', 'Takeout 2.0 is bullshit. Their kattchi has pocha peyaj.', 1, 0, 3, 11),
+<<<<<<< HEAD
 (12, 'Takeout 2.0', 'hi i am sajid', 2, 0, 2, 2),
 (0, 'pagla hotel', 'bad bad', 1, 0, 2, 3),
 (0, 'Navid Restaurant', 'bad taste', 4, 0, 5, 4),
@@ -81,6 +88,9 @@ INSERT INTO `food_review1` (`id`, `restaurant_name`, `review`, `rating`, `taste`
 (2, 'Humberger', 'awesome food', 7, 7, 7, 7),
 (3, 'bangla hotel', 'bad ', 3, 3, 3, 3),
 (4, 'Osthir food', 'best food in town', 8, 8, 8, 8);
+=======
+(12, 'Takeout 2.0', 'hi i am sajid', 2, 0, 2, 2);
+>>>>>>> 3b67f75435b5c872b7312f79ea65e1fc7ae3c415
 
 -- --------------------------------------------------------
 
@@ -101,6 +111,7 @@ CREATE TABLE `sign_up` (
 --
 
 INSERT INTO `sign_up` (`user_id`, `user_name`, `user_email`, `user_password`, `user_retype`) VALUES
+<<<<<<< HEAD
 (1, 'shawon', 'shawon@gmail.com', 'e10adc3949ba59abbe56e057f20f883e', 'e10adc3949ba59abbe56e057f20f883e'),
 (2, 'Navid', 'navid@gmail.com', '654321', '654321'),
 (3, 'afsana', 'afsana@gmail.com', '0123456', '0123456'),
@@ -113,15 +124,31 @@ INSERT INTO `sign_up` (`user_id`, `user_name`, `user_email`, `user_password`, `u
 (10, 'khuda', 'k@gmail.com', 'zxc', 'zxc'),
 (11, 'Navid', 'navid@gmail.com', '8989', '8989'),
 (12, 'test', 't@gmail.com', '5555', '5555');
+=======
+(1, 'shawon', 'sha@gmail.com', '123', '123'),
+(2, 'shawon', 'sha@gmail.com', '123', '123'),
+(3, 'shawon', 'sha@gmail.com', '123', '123'),
+(4, 'juhA', 'TAXSHXBSJH@GMAIL.COM', 'ASD', 'ASD'),
+(5, '', '', '', ''),
+(6, 'nav', 'nav@gma', '123', '123'),
+(7, 'ghjh', 'sha@gmail.com', '12', '12'),
+(8, 'shawon', 'a@gmai', '12345', '12345');
+>>>>>>> 3b67f75435b5c872b7312f79ea65e1fc7ae3c415
 
 --
 -- Indexes for dumped tables
 --
 
 --
+<<<<<<< HEAD
 -- Indexes for table `food_review1`
 --
 ALTER TABLE `food_review1`
+=======
+-- Indexes for table `food_review`
+--
+ALTER TABLE `food_review`
+>>>>>>> 3b67f75435b5c872b7312f79ea65e1fc7ae3c415
   ADD PRIMARY KEY (`id`);
 
 --
@@ -135,16 +162,27 @@ ALTER TABLE `sign_up`
 --
 
 --
+<<<<<<< HEAD
 -- AUTO_INCREMENT for table `food_review1`
 --
 ALTER TABLE `food_review1`
   MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+=======
+-- AUTO_INCREMENT for table `food_review`
+--
+ALTER TABLE `food_review`
+  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+>>>>>>> 3b67f75435b5c872b7312f79ea65e1fc7ae3c415
 
 --
 -- AUTO_INCREMENT for table `sign_up`
 --
 ALTER TABLE `sign_up`
+<<<<<<< HEAD
   MODIFY `user_id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+=======
+  MODIFY `user_id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+>>>>>>> 3b67f75435b5c872b7312f79ea65e1fc7ae3c415
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

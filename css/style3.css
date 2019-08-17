@@ -21,6 +21,7 @@ body, html {
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
+<<<<<<< HEAD
 
   }
 
@@ -45,6 +46,11 @@ body, html {
 
 
 
+=======
+   
+  }
+    
+>>>>>>> 3b67f75435b5c872b7312f79ea65e1fc7ae3c415
 .main_bodybg{
     background: url("../img/OpeningView.jpg") no-repeat center;
     background-size: cover;
@@ -54,7 +60,11 @@ body, html {
     -ms-background-size: cover;
     min-height: 100vh;
 }
+<<<<<<< HEAD
 
+=======
+ 
+>>>>>>> 3b67f75435b5c872b7312f79ea65e1fc7ae3c415
     * {
     box-sizing: border-box;
     }
