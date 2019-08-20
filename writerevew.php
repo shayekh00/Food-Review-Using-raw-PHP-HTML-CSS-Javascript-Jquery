@@ -140,6 +140,7 @@
 
 
 				</div>
+<<<<<<< HEAD
 			</div>
 
 		</div>
@@ -156,6 +157,98 @@
 
 
 
+=======
+				<form action=" Backend Files/insert_write_a_review.php " name="review_form" method="post" onsubmit="form_validation()">
+					<p class="legend" ></p>
+          <h1>Write a review</h1>
+          <br>
+          <br>
+
+					<div class="input">
+						<textarea name="review_text" cols="50" rows="10"placeholder="Write a review of the restaurant" hint = "Write a review of the restaurant"></textarea>
+
+
+					</div>
+          <br>
+<<<<<<< HEAD
+
+=======
+          
+>>>>>>> 3b67f75435b5c872b7312f79ea65e1fc7ae3c415
+					<!-- <div class="input">
+						<label for="r_name">Restaurant Name</label>
+						<input type="text" placeholder="Restaurant Name" name="r_name" required />
+						<span class="fa fa-unlock"></span>
+					</div>
+          <br> -->
+
+
+          <table>
+            <tr>
+              <div class="input">
+                <td> <label for="r_rating">Restaurant Name</label>  </td>
+                <td><input type="text" placeholder="Restaurant Name" name="r_name" required /></td>
+                <td><span class="fa fa-unlock"></span></td>
+              </div>
+            </tr>
+
+            <tr>
+              <div class="input">
+                <td> <label for="r_rating">Rating</label>  </td>
+                <td><input type="number" placeholder="Rating " name="r_rating" required /></td>
+                <td><span class="fa fa-unlock"></span></td>
+              </div>
+            </tr>
+<<<<<<< HEAD
+						<tr>
+							<div class="input">
+								<td> <label for="r_rating">Taste</label>  </td>
+								<td><input type="number" placeholder="Rating " name="r_taste" required /></td>
+								<td><span class="fa fa-unlock"></span></td>
+							</div>
+						</tr>
+=======
+>>>>>>> 3b67f75435b5c872b7312f79ea65e1fc7ae3c415
+
+            <tr>
+              <div class="input">
+                <td> <label for="r_rating">Ambience</label>  </td>
+                <td><input type="number" placeholder="Ambience Rating" name="r_ambience" required /></td>
+                <td><span class="fa fa-unlock"></span></td>
+              </div>
+            </tr>
+
+            <tr>
+              <div class="input">
+                <td> <label for="r_rating">Service</label>  </td>
+                <td><input type="number" placeholder="Service Rating" name="r_service" required /></td>
+                <td><span class="fa fa-unlock"></span></td>
+              </div>
+            </tr>
+
+
+
+          </table>
+
+
+          <input type="submit" name="submit" class=" btn btn-primary" value="SUBMIT" style="font-size:15pt;color:white;background-color:maroon;border:4px solid #900C3F;padding:5px">
+          <br>
+          <br>
+
+
+
+
+				</form>
+
+			</div>
+    </div>
+<<<<<<< HEAD
+
+=======
+    
+>>>>>>> 3b67f75435b5c872b7312f79ea65e1fc7ae3c415
+	</div>
+>>>>>>> fa312b597a73245b82b6bb30a81cdcb8c9cc4ab1
 
 
 

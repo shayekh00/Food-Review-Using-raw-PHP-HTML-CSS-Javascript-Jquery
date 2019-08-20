@@ -32,19 +32,6 @@ body, html {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 .main_bodybg{
     background: url("../img/OpeningView.jpg") no-repeat center;
     background-size: cover;
@@ -54,10 +41,6 @@ body, html {
     -ms-background-size: cover;
     min-height: 100vh;
 }
-
-    * {
-    box-sizing: border-box;
-    }
     .navigation_item_custom{
         color: #ffffff
     }

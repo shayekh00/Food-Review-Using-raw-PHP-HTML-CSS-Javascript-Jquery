@@ -21,7 +21,6 @@ $result=mysqli_query($con,"select * from food_review");
 
         </div>
 
-
         <table>
           <!-- <tr>
             <th>Restaurant Name: </th>
@@ -57,15 +56,25 @@ $result=mysqli_query($con,"select * from food_review");
 
           <table>
 
+  
+          <table>
 
 
           <?php
 
             //$row = mysqli_fetch_assoc($result);
 
+
             $session_email= $_SESSION['user_email'];
             $query = "SELECT * from food_review WHERE email='$session_email'  ";
 
+
+
+            session_start();
+            $session_email= $_SESSION['email'];
+            $query = "SELECT * from food_review WHERE email='$session_email'  ";
+            
+            
 
 
             if ($result = mysqli_query($con, $query)) {
@@ -85,14 +94,23 @@ $result=mysqli_query($con,"select * from food_review");
                   </tr>
 
                   <tr>
+
                     <td>Review:</td>
+
+                    <td>Review:</td> 
+
                     <td><?php  printf ("%s\n", $row["review"]);?></td>
                   </tr>
 
                   <tr>
                     <td>Ambiance:</td>
                     <td><?php  printf ("%s\n", $row["ambiance"]);?></td>
+
                   </tr>
+
+                  </tr>
+
+                  </tr> 
 
                   <tr>
                     <td>Service:</td>
@@ -109,6 +127,13 @@ $result=mysqli_query($con,"select * from food_review");
                 <?php
 
               }
+
+
+                
+                <?php
+                  
+              }
+              
 
               /* free result set */
               mysqli_free_result($result);
