@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 10, 2019 at 11:59 PM
+-- Generation Time: Aug 18, 2019 at 09:11 PM
 -- Server version: 10.3.16-MariaDB
 -- PHP Version: 7.3.6
 
@@ -69,18 +69,26 @@ CREATE TABLE `food_review1` (
   `rating` int(50) NOT NULL,
   `taste` int(50) NOT NULL,
   `ambiance` int(50) NOT NULL,
-  `service` int(50) NOT NULL
+  `service` int(50) NOT NULL,
+  `user_email` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `food_review1`
 --
 
-INSERT INTO `food_review1` (`id`, `restaurant_name`, `review`, `rating`, `taste`, `ambiance`, `service`) VALUES
-(1, 'shawon Restora', 'awesome lovely food . Dahing restaurant.. generally very good environment', 9, 9, 9, 9),
-(2, 'Humberger', 'awesome food', 7, 7, 7, 7),
-(3, 'bangla hotel', 'bad ', 3, 3, 3, 3),
-(4, 'Osthir food', 'best food in town', 8, 8, 8, 8);
+INSERT INTO `food_review1` (`id`, `restaurant_name`, `review`, `rating`, `taste`, `ambiance`, `service`, `user_email`) VALUES
+(1, 'shawon Restora', 'awesome lovely food . Dahing restaurant.. generally very good environment', 9, 9, 9, 9, ''),
+(2, 'Humberger', 'awesome food', 7, 7, 7, 7, ''),
+(3, 'bangla hotel', 'bad ', 3, 3, 3, 3, ''),
+(4, 'Osthir food', 'best food in town', 8, 8, 8, 8, ''),
+(5, 'Urmi Restaurant', 'Very bad food.. Cannot cook properly.. Only Begun Bhaji chatni.. ', 5, 6, 5, 6, ''),
+(6, 'Amar Restaurant', 'bad bad bad', 4, 4, 3, 3, ''),
+(7, 'urmi Res', 'baje khana', 4, 2, 3, 1, ''),
+(8, 'Navisto', 'good food', 8, 7, 8, 8, 'a@a.com'),
+(9, 'amitabh Restaurant', 'khana dana was good but average', 8, 7, 6, 5, 'a@a.com'),
+(15, 'Domisto', ' Look Awesome', 8, 7, 4, 8, 'a@a.com'),
+(17, 'erdw', 'the', 5, 5, 5, 5, 'a@a.com');
 
 -- --------------------------------------------------------
 
@@ -112,7 +120,10 @@ INSERT INTO `sign_up` (`user_id`, `user_name`, `user_email`, `user_password`, `u
 (9, 'bellal', 'b@gmail.com', 'asd', 'asd'),
 (10, 'khuda', 'k@gmail.com', 'zxc', 'zxc'),
 (11, 'Navid', 'navid@gmail.com', '8989', '8989'),
-(12, 'test', 't@gmail.com', '5555', '5555');
+(12, 'test', 't@gmail.com', '5555', '5555'),
+(13, 'Sammy', 'sammy@g.com', 'asdf', 'asdf'),
+(14, 'silvy', 'silvy@gmail.com', '6969', '6969'),
+(15, 'Navid', 'navid@gmail.com', '123456', '123456');
 
 --
 -- Indexes for dumped tables
@@ -138,13 +149,13 @@ ALTER TABLE `sign_up`
 -- AUTO_INCREMENT for table `food_review1`
 --
 ALTER TABLE `food_review1`
-  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
 
 --
 -- AUTO_INCREMENT for table `sign_up`
 --
 ALTER TABLE `sign_up`
-  MODIFY `user_id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `user_id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

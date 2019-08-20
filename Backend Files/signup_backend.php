@@ -17,6 +17,7 @@
          if (mysqli_query($conn, $sql)) {
 
             echo "New record created successfully";
+            
                header("Location: ../indexlog.php");
 
 

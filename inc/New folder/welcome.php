@@ -1,4 +1,4 @@
-<?php include "inc/header.php";
+<?php include "../inc/header.php";
 
 
 //echo "Welcome " . $_SESSION['username'];
@@ -16,7 +16,7 @@
 			<div class="bg-content-w3pvt">
 				<div class="top-content-style">
 
-          <p style="font-size:50px; color:white ; border color: maroon;">Welcome To Hungry Raven</p>
+          <p style="font-size:50px; color:white ; border color: maroon;">Welcome To FooD  RaveN</p>
 
           <div class="card text-center">
     <div class="card-header">
@@ -247,8 +247,6 @@
             window.alert("No details available for input: '" + place.name + "'");
             return;
           }
-
-         
 
           // If the place has a geometry, then present it on a map.
           if (place.geometry.viewport) {

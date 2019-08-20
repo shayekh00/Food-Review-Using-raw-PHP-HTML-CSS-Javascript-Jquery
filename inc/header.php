@@ -1,4 +1,5 @@
 
+
 <?php session_start(); ?>
 
 <?php
@@ -11,6 +12,12 @@ else if($_SESSION['user_email']){
 }
 
  ?>
+
+<?php
+       $cookie_name =  $_SESSION['user_name'];
+        $cookie_value =  $_SESSION['user_name'];
+        setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/"); // 86400 = 1 day
+?>
 
 <!doctype html>
 <html lang="en">
@@ -105,7 +112,7 @@ body {
 
         <a href="welcome.php" class="active">Home</a>
         <a href="writerevew.php">Write a Review</a>
-        <a href="myreview.php">My Review</a>
+        <a href="myrev.php">My Review</a>
         <a href="search.php">Search Restaurant</a>
         <a href="inc/logout.php">Log Out</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
