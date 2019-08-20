@@ -3,11 +3,6 @@
 <?php include "log/header.php"; ?>
 
 
-
-
-
-<?php include "inc/header.php"; ?>
-
 <div class="bg">
 
 
